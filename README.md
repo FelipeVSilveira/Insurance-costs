@@ -17,13 +17,13 @@ Através da análise exploratória, identificamos:
 3.  **Idade:** existe uma progressão linear natural de custo com a idade, mas ela é secundária se comparada ao tabagismo.
 4.  **Região:** a região *Southeast* apresenta os maiores custos médios e também a maior taxa de fumantes.
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 * **Linguagem:** Python
 * **Manipulação de Dados:** Pandas, Numpy
 * **Visualização:** Seaborn, Matplotlib
 * **Machine Learning:** Scikit-Learn (Pipeline, OneHotEncoder, StandardScaler, RandomForest)
 
-## 🤖 Modelagem e performance
+## Modelagem e performance
 Foram testados dois algoritmos para a regressão. O modelo **Random Forest** apresentou desempenho superior por capturar as não-linearidades dos dados (especialmente a interação Fumo/Obesidade).
 
 | Modelo | R² Score | RMSE (Erro Médio) | Observação |
